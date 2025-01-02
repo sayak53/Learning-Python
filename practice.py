@@ -15,6 +15,18 @@ else:
     print("Gratest number is",b) """   
 
 #3rd program
-your_name='SayakChakraborty'
-c=len(your_name)
+"""your_name='sayakChakraborty'
+a=len(your_name)
+b=your_name.endswith('ty')
+c=your_name.capitalize()
+d=your_name.replace('a','b')
+e=your_name.find('a')
+f=your_name.count('a')
+print(a)
+print(b)
 print(c)
+print(d)
+print(e)
+print(f)"""
+
+#4th program
