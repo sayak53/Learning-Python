@@ -82,3 +82,15 @@ set3={45,18,10,7}
 set4={17,18,12,7,10}
 print(set3.union(set4))
 print(set3.intersection(set4))"""
+
+#8th program
+"""marks=[34,5,6,4,43]
+print(marks[1:4])
+marks.append(6)
+marks.reverse()
+marks.insert(3,56)
+marks.pop(3)
+print(marks)
+tup=(1,2,3,4,4,5,5,5,4)
+print(tup.count(4))
+print(tup.index(5))"""
