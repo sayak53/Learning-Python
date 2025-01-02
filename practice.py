@@ -50,3 +50,35 @@ if(a%7==0):
     print('divided by 7')
 else:
     print('not divided by 7')"""
+
+#6th program
+"""dict = {
+    'name':"Superman",
+    'actor':"Henry Cavill",
+    'money':3785326379563,
+    'movies':264,
+    'highest paid':145
+}
+gross ={
+    'liked movies':164,
+    'moneyGained':74375735
+}
+print(dict.items())
+print(dict.get('actor'))
+dict.update(gross)
+print(dict)"""
+
+#7th program
+"""set1={1,2,3,4,5}
+set2={'tony','steve','peter','thor'}
+print(set1)
+set1.add(6)
+set1.remove(6)
+set1.pop()
+print(set1)
+set2.pop()
+print(set2)
+set3={45,18,10,7}
+set4={17,18,12,7,10}
+print(set3.union(set4))
+print(set3.intersection(set4))"""
