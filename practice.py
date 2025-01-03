@@ -138,3 +138,49 @@ def sum(a,b):
     return a+b
 
 print(sum(3,4))
+
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+      fact=fact*i
+    return fact
+
+print(factorial(5))
+
+def check_prime(n):
+    count =0
+    for i in range(1,n+1):
+        if(n%i==0):
+            count+=1
+    if(count==2):
+        print(f'{n} is a prime number')
+    else:
+        print(f'{n} is not a prime number')
+
+check_prime(45)
+
+
+def binary_search(arr,target):
+    left = 0
+    right = len(arr)-1
+
+    while left<=right:
+         mid = (left+right) // 2
+        
+         if arr[mid] == target:
+            return mid
+         elif arr[mid] < target:
+            left = mid + 1
+         else:
+            right = mid - 1 
+      
+    return -1 
+
+arr=[1,34,5,6,24,52452,2452,36,34]
+target=int(input('Enter the number you wnat  to find'))
+result=binary_search(arr,target)
+
+if result!=-1:
+    print(f'{target} found at index no. {result}')
+else:
+    print('sorry not found')
