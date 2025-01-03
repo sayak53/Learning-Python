@@ -96,39 +96,45 @@ print(tup.count(4))
 print(tup.index(5))"""
 
 #9th program
-# i=100
-# while(i>0):
-#     print(i)
-#     i-=1
+"""i=100
+while(i>0):
+    print(i)
+    i-=1
 
-# list=(75,5,45,3,4,45,4543,24)
-# a=int(input('enter the number you are finding:'))
-# found =False
-# for index,numbers in enumerate(list):
-#     if(numbers==a):
-#         found=True
-#         print(f'{a} is found at index no. {index}')
-#         break
-# else:
-#      print('not found')
+list=(75,5,45,3,4,45,4543,24)
+a=int(input('enter the number you are finding:'))
+found =False
+for index,numbers in enumerate(list):
+    if(numbers==a):
+        found=True
+        print(f'{a} is found at index no. {index}')
+        break
+else:
+     print('not found')
 
-# for i in range(2,102,2):
-#     print(i)
+for i in range(2,102,2):
+    print(i)
 
-# n=int(input('enter a number'))
-# for i in range(1,11):
-#     print(f'{n} x {i} = {n*i}')
+n=int(input('enter a number'))
+for i in range(1,11):
+    print(f'{n} x {i} = {n*i}')
 
-# n=int(input('enter the number:'))
-# sum=0
-# for i in range (1,n+1):
-#     sum+=i
+n=int(input('enter the number:'))
+sum=0
+for i in range (1,n+1):
+    sum+=i
 
-# print(f'The sum of first {n} numbers is : {sum}')
+print(f'The sum of first {n} numbers is : {sum}')
 
 n=int(input('enter the number:'))
 sum=1
 for i in range (1,n+1):
     sum*=i
 
-print(f'The sum of first {n} numbers is : {sum}')
+print(f'The sum of first {n} numbers is : {sum}')"""
+
+#10th program
+def sum(a,b):
+    return a+b
+
+print(sum(3,4))
