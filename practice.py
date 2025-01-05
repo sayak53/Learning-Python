@@ -172,7 +172,7 @@ def binary_search(arr,target):
          elif arr[mid] < target:
             left = mid + 1
          else:
-            right = mid - 1 
+            right = mid 
       
     return -1 
 
