@@ -183,4 +183,4 @@ result=binary_search(arr,target)
 if result!=-1:
     print(f'{target} found at index no. {result}')
 else:
-    print('sorry not found')
+    print('sorry not found'
